@@ -1,0 +1,34 @@
+.ContentDiv {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #content {
+    flex-grow: 1;
+    margin-right: 12px;
+  }
+  
+  .buttonsContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .buttonsContainer div {
+    margin-left: 8px;
+  }
+  
+  .buttonsContainer img {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .buttonsContainer img:hover {
+    transform: scale(1.2);
+  }
+  
